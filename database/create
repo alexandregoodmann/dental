@@ -1,0 +1,13 @@
+﻿create database dental;
+--drop table pessoa;
+create table pessoa(
+	idPessoa int primary key,
+	nome varchar(300) not null,
+	email varchar(300) null,
+	telefone char(11) null,
+	celular char(11) null
+);
+
+insert into pessoa(idPessoa, nome) values (1, 'alexandre');
+
+select * from pessoa;
