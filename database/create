@@ -1,7 +1,7 @@
 ﻿create database dental;
 --drop table pessoa;
 create table pessoa(
-	idPessoa int primary key,
+	idPessoa serial primary key,
 	nome varchar(300) not null,
 	email varchar(300) null,
 	telefone char(11) null,
